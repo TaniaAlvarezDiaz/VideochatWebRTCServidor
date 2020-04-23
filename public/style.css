@@ -1,0 +1,34 @@
+body {
+    background-color: whitesmoke;
+}
+
+#container {
+    margin: 50px 100px;
+    display: grid;
+    grid-template-columns: 700px 250px;
+    grid-gap: 10px;
+}
+
+#myVideo {
+    position: absolute;
+}
+
+#remoteVideo {
+    width: 150px;
+    height: 150px;
+    left: -50px;
+    position: relative;
+}
+
+#conversation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#chat {
+    resize: none;
+    width: 220px;
+    height: 450px;
+    margin-top: 10px;
+}
